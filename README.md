@@ -6,7 +6,7 @@
 
 The Move packages behind Talise: gasless dollar payments, claim links, streaming, an on-chain savings vault, and a shielded (private) transfer pool, deployed on Sui mainnet.
 
-[Live app](https://app.talise.io) · [Frontend](https://github.com/talise-public/talise-frontend) · [Mobile](https://github.com/talise-public/talise-mobile) · [Docs](https://github.com/talise-public/talise-docs)
+[Website](https://talise.io) · [Frontend](https://github.com/talise-public/talise-frontend) · [Mobile](https://github.com/talise-public/talise-mobile) · [Docs](https://github.com/talise-public/talise-docs)
 
 </div>
 
