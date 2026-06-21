@@ -1,0 +1,9 @@
+[package]
+name = "talise_pay"
+edition = "2024.beta"
+version = "0.1.0"
+
+[dependencies]
+
+[addresses]
+talise = "0x0"

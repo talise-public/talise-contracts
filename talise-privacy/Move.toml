@@ -1,0 +1,15 @@
+[package]
+name = "talise_privacy"
+edition = "2024.beta"
+version = "0.1.0"
+
+# Sui-framework-only PLUS a local dep on `talise` (for the cross-package
+# compliance gate). Like move/talise-yield/Move.toml, we rely on the IMPLICIT
+# system dependency on the Sui framework (resolved via the active environment,
+# pinned in Move.lock) rather than an explicit git dep — this avoids the
+# "multiple 0x2" conflict that an explicit framework dep would introduce when
+# the resolver already injects the system framework.
+[dependencies]
+
+[addresses]
+talise_privacy = "0x0"

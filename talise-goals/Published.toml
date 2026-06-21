@@ -1,0 +1,6 @@
+# talise_goals — published package ids (per network).
+[mainnet]
+package_id = "0xb0898eef5734ee9ebfbdbacd9e39533d7070159d4a87287ddde8a5b331059947"
+publish_digest = "FhQJoBZquScGF2FXrWRc3RN2Z3NC76J5LPRqaKpZDU2F"
+publisher = "0x8a319488de2a8043a7b503d4a906ce5feedb793787bdb9a63bc6327d46310cdb"
+module = "goal_vault"

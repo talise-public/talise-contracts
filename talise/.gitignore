@@ -1,0 +1,4 @@
+# `sui move build` / `sui move test --coverage` artifacts.
+build/
+.coverage_map.mvcov
+traces/

@@ -1,0 +1,5 @@
+/target
+keys/proving_key.bin
+# wasm-pack build output (regenerate with build-wasm.sh)
+/pkg
+pkg/

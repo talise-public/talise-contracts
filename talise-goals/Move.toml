@@ -1,0 +1,11 @@
+[package]
+name = "talise_goals"
+edition = "2024.beta"
+version = "0.1.0"
+
+# Standalone, isolated from the production `talise` money package — goal_vault
+# has zero talise:: dependencies (only Sui framework + std), so per-goal
+# fund-custody risk is fully separated from send/vault/cheque/etc.
+
+[addresses]
+talise_goals = "0x0"

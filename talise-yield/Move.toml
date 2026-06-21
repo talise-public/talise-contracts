@@ -1,0 +1,9 @@
+[package]
+name = "talise_yield"
+edition = "2024.beta"
+version = "0.1.0"
+
+[dependencies]
+
+[addresses]
+talise_yield = "0x0"

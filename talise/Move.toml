@@ -1,0 +1,16 @@
+[package]
+name = "talise"
+edition = "2024.beta"
+version = "0.1.0"
+
+[dependencies]
+# openzeppelin_math was evaluated for v7 throttle accounting but dropped:
+# the OZ package pins a different Sui-framework rev than `framework/testnet`,
+# producing a "multiple versions of package 0x2" conflict that requires an
+# `override = true` workaround. Per SECURITY-V7.md, dropping the dep and
+# using Sui stdlib + explicit `U64_MAX - used_today` guards is equivalent
+# in safety for the throttle's u64 arithmetic. See `validate_for_swap_v2`
+# in sources/auto_swap.move for the overflow assertion.
+
+[addresses]
+talise = "0x0"
