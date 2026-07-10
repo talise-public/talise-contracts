@@ -62,4 +62,4 @@ Build artifacts are gitignored, so only sources, `Move.toml`, and the published 
 
 ## License
 
-MIT. See [LICENSE](./LICENSE).
+Proprietary, all rights reserved. See [LICENSE](./LICENSE).
