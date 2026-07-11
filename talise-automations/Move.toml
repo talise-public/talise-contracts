@@ -1,0 +1,18 @@
+[package]
+name = "talise_automations"
+edition = "2024.beta"
+version = "0.1.0"
+
+# Standalone package: an on-chain, NON-CUSTODIAL standing order ("rule"). A user
+# funds a `StandingOrder<T>` shared object that holds the rule's pot as a
+# `Balance<T>`; a registered worker can ONLY release the pre-authorized
+# `amount_per` to the hardwired `recipient` once each `interval_ms` is due
+# (Clock-gated). The owner can pause/resume/top-up/cancel-and-refund at any time.
+# The worker has no extraction surface — funds can only flow to the recipient the
+# owner set at creation, never more than the schedule allows. Mirrors the audited
+# talise::stream worker+Clock release model, generalized to run open-ended.
+
+[dependencies]
+
+[addresses]
+talise_automations = "0x0"

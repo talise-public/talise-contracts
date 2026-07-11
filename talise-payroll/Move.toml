@@ -1,0 +1,20 @@
+[package]
+name = "talise_payroll"
+edition = "2024.beta"
+version = "0.1.0"
+
+# Standalone package: a reusable on-chain payroll TEAM (roster) object. No
+# central registry, no init — each Team is a self-contained, owner-gated
+# shared object, so this publishes clean (a fresh publish, not an upgrade of
+# the production `talise` package) and carries no cross-package dependency.
+#
+# It deliberately holds NO money. Paying a team still routes through the
+# screened server prepare → `talise::batch_pay::pay_many` path, so compliance
+# screening + send limits stay enforced. This object is the saved roster the
+# pay path reads — the composable, on-chain source of truth for "who is on
+# the team", nothing more.
+
+[dependencies]
+
+[addresses]
+talise_payroll = "0x0"
