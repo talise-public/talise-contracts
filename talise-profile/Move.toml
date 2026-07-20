@@ -1,0 +1,11 @@
+[package]
+name = "talise_profile"
+edition = "2024.beta"
+version = "0.1.0"
+
+# Standalone, isolated from the production `talise` money package — the profile
+# object holds only cosmetic avatar/config data (no funds), so it carries zero
+# custody risk and has zero talise:: dependencies (Sui framework + std only).
+
+[addresses]
+talise_profile = "0x0"
